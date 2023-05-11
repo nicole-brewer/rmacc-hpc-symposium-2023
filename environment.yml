@@ -1,0 +1,18 @@
+name: jupyter-lib-recs
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - jupyterlab # preffered user-interface for most users (users not logging in from a preferred remote IDE)
+  - numpy # for scientific python
+  - scipy # for scientific python
+  - pandas # for scientific python
+  - matplotlib # common static plotting library
+  - ipympl # enables interactive features for matplotlib
+  - plotly # interactive plotting library
+  - ipywidgets # Jupyter Widgets: Find a comprehensive list at https://github.com/nicole-brewer/awesome-jupyter-widgets
+  - jupyter-scatter # Jupyter Widgets: 2D scatter plots that scale to millions of points
+  - ipyleaflet # Jupyter Widgets: interactive map visualizations
+  - ipycytoscape # Jupyter Widgets: interactive network visualizations
+  - voila # turns notebook into standalone application by hiding code cells
