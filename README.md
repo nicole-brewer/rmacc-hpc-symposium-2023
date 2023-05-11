@@ -23,13 +23,22 @@ We have built several web applications intended to run on…
 
 ## Problem
 
-We had to continually submit tickets to system admins as we discovered new libraries.
+We had to continually submit tickets to system admins as we discovered new libraries. Many of these libraries are relatively common interactive visualizations and other interactive components called widgets. Here are some examples. The first shows an interactive visualization achieved using Jupyter Widgets (ipywidgets) in conjunction with matplotlib.
+
+![Screen Shot 2023-04-17 at 11 34 06 PM](https://github.com/nicole-brewer/rmacc-hpc-symposium-2023/assets/20686935/7b591bbc-2745-4ade-8cb5-8d37fe0e0d66)
+
+The second shows an HPC usecase where plotly is used to create a visualization to monitor the status of nodes in a cluster.
+
+![IMG_4209](https://github.com/nicole-brewer/rmacc-hpc-symposium-2023/assets/20686935/38913293-460c-4d87-8e6e-7fdb736b9333)
+
+Finally, the following graphic shows a standalone web application made with Voilà. Voilà strips away code cells from Jupyter Notebooks leaving only an interactive user interface. Tools and apps made with  Voilà can be deployed on a variety of systems.
+
+![anova](https://github.com/nicole-brewer/rmacc-hpc-symposium-2023/assets/20686935/587efff1-2286-4d73-a512-f96be11d95ec)
 
 ## Solution
 
-The [environment.yml](https://github.com/nicole-brewer/rmacc-hpc-symposium-2023/blob/main/environment.yml) file in this repository includes a curated set of recommendations for system administrators. This list contains only the most widely-use libraries (in my estimation). My repository [awesome-jupyter-widgets](https://github.com/nicole-brewer/awesome-jupyter-widgets)
- contains a more extensive list of Jupyter Widgets for scientists and software engineers.
-To create this environment with conda, use the command
+The [environment.yml](https://github.com/nicole-brewer/rmacc-hpc-symposium-2023/blob/main/environment.yml) file in this repository includes a curated set of recommendations for system administrators. This list contains only the most widely-use libraries (in my estimation). 
+To create this environment with conda, use the command...
 
 ```bash
 conda create -f environment.yml
@@ -47,6 +56,10 @@ This environment includes the following libraries:
   - [ipyleaflet](https://github.com/jupyter-widgets/ipyleaflet): interactive map visualizations
   - [ipycytoscape](https://github.com/cytoscape/ipycytoscape): interactive network visualizations
 - [voila](https://github.com/voila-dashboards/voila): turns notebook into standalone application by hiding code cells
+
+
+To explore more libraries, visit my repository [awesome-jupyter-widgets](https://github.com/nicole-brewer/awesome-jupyter-widgets),
+ which contains a more extensive list of Jupyter Widgets for scientists and software engineers.
 
 ## Current Work
 
@@ -71,5 +84,7 @@ continued and extensive participation in the research software engineering and H
 Finally, I'd like to thank Jason Yalim from Research Computing at ASU for encouraging me to submit to 
 the Symposium and providing me with images of Jupyter widgets used for HPC applications. 
 
-This work was supported by the Better Scientific Software Fellowship Program, funded by the Exascale Computing Project (17-SC-20-SC), a collaborative effort of the U.S. Department of Energy (DOE) Office of Science and the National Nuclear Security Administration; and by the National Science Foundation (NSF) under Grant No. 2154495.
+<img width="200" align="left" alt="BSSw-logo" src="https://github.com/nicole-brewer/rmacc-hpc-symposium-2023/assets/20686935/e834056f-7169-4ce8-90ed-24bb878ab993">
+
+This work was supported by the [Better Scientific Software Fellowship Program](https://bssw.io/fellows/nicole-brewer), funded by the Exascale Computing Project (17-SC-20-SC), a collaborative effort of the U.S. Department of Energy (DOE) Office of Science and the National Nuclear Security Administration; and by the National Science Foundation (NSF) under Grant No. 2154495.
 Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the DOE or NSF.
