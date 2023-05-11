@@ -35,6 +35,19 @@ To create this environment with conda, use the command
 conda create -f environment.yml
 ```
 
+This environment includes the following libraries:
+
+- libraries for scientific python including numpy, scipy, and pandas
+- jupyterlab: preffered user-interface for most users (users not logging in from a preferred remote IDE)
+- matplotlib: common static plotting library
+- [ipympl](https://github.com/matplotlib/ipympl): enables interactive features for matplotlib
+- [plotly](https://plotly.com/python/getting-started/): interactive plotting library
+- [ipywidgets](https://ipywidgets.readthedocs.io/en/latest/): Jupyter Widgets: Find a comprehensive list at https://github.com/nicole-brewer/awesome-jupyter-widgets
+  - [jupyter-scatter](https://github.com/flekschas/jupyter-scatter): 2D scatter plots that scale to millions of points
+  - [ipyleaflet](https://github.com/jupyter-widgets/ipyleaflet): interactive map visualizations
+  - [ipycytoscape](https://github.com/cytoscape/ipycytoscape): interactive network visualizations
+- [voila](https://github.com/voila-dashboards/voila): turns notebook into standalone application by hiding code cells
+
 ## Current Work
 
 - [a list of awesome Jupyter widgets](https://github.com/nicole-brewer/awesome-jupytr-widgets)
