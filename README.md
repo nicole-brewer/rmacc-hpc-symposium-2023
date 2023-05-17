@@ -1,4 +1,20 @@
+| :exclamation:  Apply to my [Full-time Remote Summer Internship for ASU Students](https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=25620&siteid=5495&SID=%5Egr2xx0r4TKvtllDzw9dsR_slp_rhc_YLhRfErDerHjwNL1n64GA%2F6whD305sHlxerNGhxq%2F3#jobDetails=4760825_5495) (grad or undergrad)   |
+|-----------------------------------------|
+
+Highlights: 
+- use Jupyter Notebooks for scientific communication
+- get paid to work on interactive visualizations for *your research data* or whatever you're interested in
+- report on and present your experience at conferences (if that's your thing)
+- your ability to learn is more important than your current skillset
+
+Click on the link above for more info and [email me](mailto:nbrewer6@asu.edu) with any questions! 
+Students, please...
+1. apply before this Friday (May 19) at 3:00pm
+2. send me an email with your full name and a mention of where you heard about the internship
+
+
 # rmacc-hpc-symposium-2023
+
 
 ![Screen Shot 2023-05-11 at 3 23 32 PM](https://github.com/nicole-brewer/rmacc-hpc-symposium-2023/assets/20686935/81256771-fb21-47be-87cd-841431d5658d)
 
@@ -6,6 +22,7 @@
 > PhD Student, History and Philosophy of Science  
 > Center for Biology and Society  
 > Arizona State University
+
 
 This repository is an accompaniment to my poster submission to the 2023 RMACC HPC Symposium entitled  "Recommended Libraries for Cyberinfrastructure Users Developing Jupyter Notebooks". This repo contains information about Jupyter Widgets and how they can be used to develop interactive workflows, data dashboards, and web applications that can be run on HPC systems and science gateways. Easy to build web applications are not only useful for scientists. They can also be used by software engineers and system admins who want to quickly create tools tools for file management and more!
 
