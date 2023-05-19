@@ -1,0 +1,47 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Recommended Libraries for Cyberinfrastucture Users
+  Developing Jupyter Notebooks
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Nicole
+    family-names: Brewer
+    email: nbrewer6@asu.edu
+    affiliation: Arizona State University
+    orcid: 'https://orcid.org/0000-0002-6723-8940'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.7950944
+repository-code: 'https://github.com/nicole-brewer/rmacc-hpc-symposium-2023'
+abstract: >-
+  Researchers are increasingly interested in using Jupyter
+  Notebooks on HPC clusters, science gateways, and
+  compostable platforms. In addition to using notebooks for
+  scientific workflows, developers can use interactive
+  browser controls, called widgets, to allow users to more
+  easily interact with data and without editing code. In
+  addition to simple widgets, such as sliders, checkboxes,
+  and text inputs, more advanced features can be used to
+  build standalone data dashboards and web applications.
+  Many of these widgets and data visualizations are domain
+  independent, though users may discover them in an ad hoc
+  fashion, which can cause an onslaught of tickets to
+  request particular libraries. To avoid frustration faced
+  by users and system administrators alike, we present a
+  recommended environment for scientists and research
+  software engineers developing Jupyter Notebook on
+  cyberinfrastructure platforms.
+keywords:
+  - jupyter notebook
+  - user interface
+  - hpc
+  - cyberinfrastructure
+  - widgets
+  - data analysis
+license: CC0-1.0
