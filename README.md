@@ -1,18 +1,3 @@
-| :exclamation:  Apply to my [Full-time Remote Summer Internship for ASU Students](https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=25620&siteid=5495&SID=%5Egr2xx0r4TKvtllDzw9dsR_slp_rhc_YLhRfErDerHjwNL1n64GA%2F6whD305sHlxerNGhxq%2F3#jobDetails=4760825_5495) (grad or undergrad)   |
-|-----------------------------------------|
-
-Highlights: 
-- use Jupyter Notebooks for scientific communication
-- get paid to work on interactive visualizations for *your research data* or whatever you're interested in
-- report on and present your experience at conferences (if that's your thing)
-- your ability to learn is more important than your current skillset
-
-Click on the link above for more info and [email me](mailto:nbrewer6@asu.edu) with any questions! 
-Students, please...
-1. apply before this Friday (May 19) at 3:00pm
-2. send me an email with your full name and a mention of where you heard about the internship
-
-
 # rmacc-hpc-symposium-2023
 
 
